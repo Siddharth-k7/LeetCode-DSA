@@ -16,7 +16,6 @@ public:
             for (int l = 0; l + len <= n; l++) {
 
                 int r = l + len - 1;
-
                 // Try every possible split
                 for (int k = l; k < r; k++) {
 
