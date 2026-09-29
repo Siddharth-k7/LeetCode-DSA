@@ -1,7 +1,7 @@
 class Solution {
 public:
     int lastStoneWeightII(vector<int>& stones) {
-        // |x-y|
+        // |x-y| get that MOODD
         int sum=0;
         for(int x: stones){
             sum=sum+x;
@@ -23,7 +23,6 @@ public:
                 return sum - 2 * j;
             }
         }
-
         return 0;
 
         
